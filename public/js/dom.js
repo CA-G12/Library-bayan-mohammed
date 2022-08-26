@@ -1,4 +1,5 @@
 /* eslint-disable no-empty */
+// Test if I can push
 const cards = document.querySelector('.suggested-cards');
 const addCategory = document.querySelector('.add-category');
 const addBook = document.querySelector('.add-book');
@@ -142,3 +143,4 @@ addBookPopup.addEventListener('click', (e) => {
     window.alert('Please Type Valid Values');
   }
 });
+console.log("Hello");
